@@ -241,18 +241,25 @@ h1 {
   line-height: 16px;
   background-color: transparent !important;
   color: white;
+
+  &:hover, &:focus {
+    background: transparent !important;
+    border-color: @tungsten-40 !important;
+    color: @tungsten-40 !important;
+  }
+
   &.secondary-btn {
     color: @black-100;
-    background: @metaplex-primary-color !important;
-    border-color: @metaplex-primary-color !important;
+    background: @tungsten-40 !important;
+    border-color: @tungsten-40 !important;
     box-shadow: 0px 0px 24px rgba(26, 26, 26, 0.12);
     border-radius: 8px;
     width: fit-content;
 
     &:hover, &:focus {
       background: transparent !important;
-      border-color: @metaplex-primary-color !important;
-      color: @metaplex-primary-color !important;
+      border-color: @tungsten-40 !important;
+      color: @tungsten-40 !important;
     }
   }
 
